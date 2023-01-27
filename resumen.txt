@@ -1,0 +1,10 @@
+- Creamos el repositorio en github
+- copiamos el repositorio utilizando gitbash  y la url del repositorio
+- hicimos nuestro trabajo (modificamos el script, añadimos datos... etc)
+- creamos el archivo de .gitignore para evitar subir archivos temporales/ indeseados
+- cuando terminamos, usamos los siguientes comandos:
+
+git status            -> Nos dice cual es el estado del repositorio local comparado con el repositorio remoto
+git add .             -> añade todos los archivos (el punto significa TODOS) al repositorio
+git commit -m 'texto' -> Añade la "justificación" ( nuestro comentario) a los cambios que mandaremos al repositorio
+git push              -> manda todo lo anterior al repositorio
